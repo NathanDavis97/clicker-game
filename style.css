@@ -1,0 +1,27 @@
+body { min-height: 100vh; display: flex; flex-direction: column;background-color: antiquewhite; } 
+
+
+header {min-height: 5vh;}
+
+
+
+main{flex-grow: 1;} 
+
+
+
+footer {min-height: 5vh;}
+
+
+
+#ore{
+  background-image: url(https://www.pngkit.com/png/full/113-1131824_rock-clipart-ore-runescape-ore.png); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 25vh;
+  min-width: 25vh;
+}
+
+
+span{
+  padding: 0em 1em;
+}
