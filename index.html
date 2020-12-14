@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Gold-Miner</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,13 +12,17 @@
     integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="theme_1607914104379.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="container-fluid bg-primary">
-
-
+    <div class="row text-center">
+      <div class="col text-light">
+        <h1>Gold-Miner</h1>
+      </div>
+    </div>
 
 
   </header>
@@ -42,16 +46,25 @@
     <!-- upgrade -->
     <div class="row">
       <div class="col-6 text-center">
-        <div class="card">
+        <div class="card ">
           <div class="card-body">
             <h4 class="card-title">UPGRADES</h4>
-            <div onclick="buyPickaxe()">
-              <i class=" fas fa-cut "> Pickaxe <span></span></i></div>
-            <i class="fa fa-cart-plus" aria-hidden="true">Minecart <span></span></i>
+            <div class="row justify-content-around">
+              <div onclick="buyPickaxe()">
+                <i class="fa fa-toolbox    "> Pickaxe<span></span></i>
+              </div>
+              <div onclick="buyMinecart()">
+                <i class="fa fa-cart-plus" aria-hidden="true">Minecart <span></span></i>
+              </div>
+              <div onclick="buyMiner()">
+                <i class="fa fa-address-book" aria-hidden="true"> Miner <span></span></i>
+              </div>
+              <div onclick="buyDrill()">
+                <i class="fas fa-screwdriver    "> Drill <span></span></i>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
 
   </main>
